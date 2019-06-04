@@ -1,0 +1,35 @@
+{
+  "name": "permission-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "test": "mocha",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karo6774/permission-manager"
+  },
+  "keywords": [],
+  "author": "Karoline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karo6774/permission-manager/issues"
+  },
+  "homepage": "https://github.com/karo6774/permission-manager#README",
+  "dependencies": {
+    "key-parser": "karo6774/key-parser",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/lodash": "^4.14.133",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "typescript": "^3.5.1"
+  }
+}
